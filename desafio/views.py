@@ -27,3 +27,7 @@ def un_template(request):
     #return HttpResponse(render)
     
     return render(request, 'mi_template.html', {'lista_objetos': [prueba1, prueba2, prueba3]})
+
+
+
+
