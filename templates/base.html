@@ -26,16 +26,16 @@
         <nav class="navbar navbar-light bg-light static-top">
             <div class="container">
                 <a class="navbar-brand" href={% url 'index' %}>Index</a>
-                <a class="navbar-brand" href={% url 'mi_template' %}>Mi Template</a>
-                <a class="navbar-brand" href={% url 'mi_template' %}>About me</a>
-                <a class="navbar-brand" href={% url 'mi_template' %}>Contact us</a>
+                <a class="navbar-brand" href={% url 'crear_dato' %}>Crear datos</a>
+                <a class="navbar-brand" href={% url 'crear_dato' %}>About me</a>
+                <a class="navbar-brand" href={% url 'listado_usuarios' %}>Usuarios</a>
             </div>
         </nav>
 
         {% block header %}
 
-        {% block texto_h1 %} 
-        {% endblock texto_h1 %} 
+        {% block texto_header %} 
+        {% endblock texto_header %} 
         
         {% endblock header %}
 
